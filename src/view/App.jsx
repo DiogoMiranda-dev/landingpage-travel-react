@@ -8,10 +8,6 @@ import Maldives from '../videos/Maldives.mp4';
 import './App.css';
 
 function App() {
-  /*  const slideShow = document.getElementById('slideShow');
-  console.log(slideShow);
-  const slides = slideShow.getElementsByTagName('video'); */
-
   const slides = useMemo(() => document.getElementsByTagName('video'), []);
   const slidesText = useMemo(
     () => document.getElementsByClassName('slideShowText'),

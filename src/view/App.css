@@ -85,6 +85,7 @@ section .bannerVideo video.active {
   font-size: 18px;
   padding: 4px 10px;
   color: white;
+  border-radius: 5px;
 }
 
 .container header ul li a:hover,
@@ -197,9 +198,12 @@ section .bannerVideo video.active {
   }
 
   .container .content .bannerText div h2 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
+  .container .content .bannerText div p{
+    font-size: 16px;
+  }
   .container .content .bannerText {
     text-align: center;
   }
@@ -210,7 +214,7 @@ section .bannerVideo video.active {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: #fff;
+    background: rgb(221, 113, 113);
     z-index: 1000;
     display: none;
     align-items: center;
@@ -258,7 +262,13 @@ section .bannerVideo video.active {
   }
 
   .controls li {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  footer {
+    margin-bottom: 5px;
+    font-size: 12px;
+    right: 20px;
   }
 }
