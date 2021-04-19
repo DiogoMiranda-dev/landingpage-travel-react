@@ -10,8 +10,10 @@ footer {
 }
 footer a {
   text-decoration: none;
+  background-color: #fff;
   color: rgb(218, 20, 20);
   font-weight: bold;
+  padding: 2px;
 }
 .footer-emoji-heart {
   color: red;
