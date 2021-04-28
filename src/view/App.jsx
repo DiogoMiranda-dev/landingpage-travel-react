@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import Footer from '../Components/Footer';
 import Tokyo from '../videos/Tokyo.mp4';
 import Paris from '../videos/Paris.mp4';
 import Egypt from '../videos/Egypt.mp4';
