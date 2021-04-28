@@ -303,7 +303,7 @@ section .bannerVideo video.active {
     height: 40px;
   }
 
-  footer {
+  .footer {
     margin-bottom: 5px;
     font-size: 12px;
     right: 20px;
