@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Bem Vindo ao App Landing Page travel
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Sobre o Projeto
 
-## Available Scripts
+Neste projeto busquei praticar um pouco mais sobre o React.js e Api.\
+Utilizando alguns conceitos básicos do React.js, componentes e organização de pastas dentro de um projeto Web Moderno.\
+Além de praticar os conceitos de comunicações com uma API.\
 
-In the project directory, you can run:
+## 🎨 Layout
 
-### `npm start`
+Feito em Live [https://www.youtube.com/watch?v=O2GOkNZ8sjw](https://www.youtube.com/watch?v=O2GOkNZ8sjw) para estudo de react\
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## APP images
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Screenshot_1](/git/travel-01.png 'Screenshot_1')
+![Screenshot_2](/git/travel-02.png 'Screenshot_2')
+![Screenshot_3](/git/travel-03.png 'Screenshot_3')
+![Screenshot_4](/git/travel-04.png 'Screenshot_4')
 
-### `npm test`
+<!-- ## Responsive app -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔨 Tecnologias:
 
-### `npm run build`
+- **[React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)**
+- **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro)**
+- **[Eslint](https://eslint.org/)**
+- **[Prettier](https://prettier.io/)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔎 Comandos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `dev`: Executa a aplicação em `localhost:3000`
+- `build`: Cria a Build do projeto
+- `start`: Inicia um servidor simples com o código de produção
+<!-- - `lint`: Executa o **Linter** em todos os componentes e páginas
+- `test`: Executa **Jest** para testar todos os componentes e páginas
+- `test:watch`: Executa **Jest** em watch mode
+- `storybook`: Executa **Storybook** em `localhost:6006`
+- `build-storybook`: Cria uma build do storybook
+- `generate`: Cria automaticamente um componente -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Como rodar este projeto
 
-### `npm run eject`
+Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com) e [NodeJs](https://nodejs.org/en/) Instalado em seu computador.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🌀 Clonando o repositório
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone este repositório
+$ git clone https://github.com/DiogoMiranda-dev/landingpage-travel-react
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd landingpage-travel-react
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🎲 Rodando a Aplicação
 
-## Learn More
+```bash
+# Instale as dependências
+$ npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Execute a Aplicação em Desenvolvimento
+$ npm dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# O servidor iniciará na porta:3000 - acesse http://localhost:3000
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 Licença
 
-### Analyzing the Bundle Size
+Este projeto esta sobe a licença MIT. Veja a [LICENÇA](https://opensource.org/licenses/MIT) para saber mais.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ❤️ por Diogo Miranda 👋🏽 [https://diogomiranda.dev.br/](https://diogomiranda.dev.br/)

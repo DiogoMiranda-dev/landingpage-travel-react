@@ -140,18 +140,41 @@ function App() {
               </a>
             </li>
           </ul>
+          <div className="footer">
+            Feito com{' '}
+            <span
+              role="img"
+              aria-label="coração"
+              className="footer-emoji-heart"
+            >
+              ❤
+            </span>{' '}
+            por{' '}
+            <a href="http://diogomiranda.dev.br/" target="__blank">
+              Diogo Miranda
+            </a>
+            <br />
+          </div>
           {/* controles slider */}
           <ul className="controls">
-            <li onClick={prevSlide}>
-              <img src="/images/left.png" alt="left" />
+            <li>
+              <a onClick={prevSlide} href="/#">
+                <img src="/images/left.png" height="30" width="30" alt="left" />
+              </a>
             </li>
-            <li onClick={nextSlide}>
-              <img src="/images/right.png" alt="right" />
+            <li>
+              <a onClick={nextSlide} href="/#">
+                <img
+                  src="/images/right.png"
+                  height="30"
+                  width="30"
+                  alt="right"
+                />
+              </a>
             </li>
           </ul>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

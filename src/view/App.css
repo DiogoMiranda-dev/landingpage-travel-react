@@ -5,9 +5,15 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  overflow: hidden;
+}
+
 section {
   background: #111;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 section .bannerVideo {
@@ -129,24 +135,27 @@ section .bannerVideo video.active {
 
 .sci {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 15px;
+  left: 30px;
   display: flex;
-  flex-direction: column;
+  /*  flex-direction: column; */
 }
 
 .sci li {
   list-style: none;
+  margin: 5px;
 }
 
 .sci li a {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
 }
+
 .sci li a:hover {
   background: #d3d3d3;
 }
@@ -158,17 +167,19 @@ section .bannerVideo video.active {
 
 .controls {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 15px;
+  right: 30px;
   display: flex;
 }
 
 .controls li {
   list-style: none;
+  margin: 5px;
 }
 .controls li {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,20 +191,41 @@ section .bannerVideo video.active {
   background: #d3d3d3;
 }
 
-.menuIcon{
+.footer {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+  background-color: #fff;
+  color: rgb(218, 20, 20);
+  font-weight: bold;
+  padding: 2px;
+}
+.footer-emoji-heart {
+  color: red;
+}
+
+.menuIcon {
   display: none;
 }
 
 /* responsive */
-@media(max-width: 991px){
-  .container{
-    padding: 20px;
+@media (max-width: 991px) {
+  .container {
+    padding: 15px;
   }
-  .container::before{
+  .container::before {
     width: 100%;
   }
 
-  .container header{
+  .container header {
     padding: 10px 20px;
   }
 
@@ -201,14 +233,14 @@ section .bannerVideo video.active {
     font-size: 2em;
   }
 
-  .container .content .bannerText div p{
+  .container .content .bannerText div p {
     font-size: 16px;
   }
   .container .content .bannerText {
     text-align: center;
   }
 
-  .container header ul{
+  .container header ul {
     position: fixed;
     top: 0;
     left: 0;
@@ -221,26 +253,26 @@ section .bannerVideo video.active {
     justify-content: center;
     flex-direction: column;
   }
-  .container header.active ul{
+  .container header.active ul {
     display: flex;
   }
-  .container header ul li{
+  .container header ul li {
     text-align: center;
     margin: 10px;
   }
-  .container header ul li a{
+  .container header ul li a {
     color: #333;
     font-size: 1.5em;
   }
-  .container header ul li a:hover{
+  .container header ul li a:hover {
     color: red;
   }
-  .menuIcon{
+  .menuIcon {
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
     display: inherit;
     z-index: 10000;
     background: #fff url('../img/menu.png');
@@ -249,7 +281,7 @@ section .bannerVideo video.active {
     background-position: center;
     cursor: pointer;
   }
-  .menuIcon.active{
+  .menuIcon.active {
     background: #fff url('../img/close.png');
     background-size: 30px;
     background-repeat: no-repeat;
@@ -260,12 +292,17 @@ section .bannerVideo video.active {
     width: 40px;
     height: 40px;
   }
-
+  .sci {
+    bottom: 45px;
+  }
+  .controls {
+    bottom: 45px;
+  }
   .controls li {
     width: 40px;
     height: 40px;
   }
-  
+
   footer {
     margin-bottom: 5px;
     font-size: 12px;
