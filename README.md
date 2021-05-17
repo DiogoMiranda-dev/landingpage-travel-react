@@ -30,7 +30,7 @@ Utilizando alguns conceitos básicos do React.js, componentes e organização de
 Além de praticar os conceitos de comunicações com uma API.\
 
 ## :computer: Demo
-
+[https://landingpage-travel-react-7dg8812pg-diogomiranda-dev.vercel.app/ ](https://landingpage-travel-react-7dg8812pg-diogomiranda-dev.vercel.app/ )
 <!--
 # 🚀  API
 
